@@ -51,7 +51,7 @@ body{
     align-items: center;
     justify-content: center;
     gap:20px;
-    padding: 80px 50px;
+    padding: 80px 20px;
     box-shadow: 0 0 10px 0 rgba(0,0,0,0.2);
 }
 
@@ -76,7 +76,7 @@ body{
     background-color: #ffffff;
     border: 1px solid black;
     border-radius: 5px;
-    margin: 20px;
+    margin:20px;
     box-shadow: 0 0 10px 0 rgba(0,0,0,0.2);
 }
 

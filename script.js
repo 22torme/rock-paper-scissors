@@ -2,6 +2,7 @@
 const rock = document.querySelector('#rock');
 const paper = document.querySelector('#paper');
 const scissors = document.querySelector('#scissors');
+const reset = document.querySelector('#reset-btn');
 
 //score
 //select the player score
@@ -80,4 +81,14 @@ function playRound(playerSelection, computerSelection) {
     }
 }
 
-// playRound(playerSelection, computerSelection);
+//add event listener for reset button
+reset.addEventListener('click', () => {
+    //reset the score
+    playerScore.textContent = 0;
+    computerScore.textContent = 0;
+    //reset the selections
+    playerSelection.textContent = "";
+    computerSelection.textContent = "";
+    //reset the result box
+    resultBox.textContent = "";
+});
