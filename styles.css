@@ -66,9 +66,12 @@ body{
     display:flex;
     justify-content: center;
     align-items: center;
+    font-size:50px;
 }
 
 .result > div{
+    flex:1;
+    flex-grow:0;
     padding: 50px;
     background-color: #ffffff;
     border: 1px solid black;
