@@ -1,3 +1,7 @@
+//get player selection
+// const playerSelection = querrySelector('button');
+
+
 //create a function that randomly returns the string "rock", "paper", or "scissors"
 function computerPlay() {
     let random = Math.floor(Math.random() * 3);
@@ -53,5 +57,7 @@ function game() {
         console.log("It's a tie!");
     }
 }
+
+
 
 game();
